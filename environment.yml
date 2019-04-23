@@ -1,0 +1,24 @@
+name: d2ix
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python=3.7
+    - ruamel.yaml
+    - xarray
+    - dask
+    - numpy
+    - pandas
+    - matplotlib
+    - jupyterlab
+    - seaborn
+    - ipykernel
+    - xlrd
+    - pytables
+    - message-ix
+    - openpyxl
+    - pytest
+    - pip
+    - pip:
+        - git+https://github.com/tum-ewk/d2ix.git@master
